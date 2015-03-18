@@ -11,7 +11,7 @@ defined('_JEXEC') or die;
 $image_limit = $params->get('limit', 8);
 ?>
 <div class="sp-flickr-gallery <?php echo $params->get('moduleclass_sfx'); ?>">
-	<?php if (!empty($params->get('flickr_id'))) {?>
+	<?php if ($params->get('flickr_id')) {?>
 	<div class="sp-flickr-gallery-content">
 		<ul class="sp-flickr-gallery" data-id="<?php echo $params->get('flickr_id'); ?>" data-count="<?php echo $image_limit; ?>" data-setid="<?php echo $params->get('flickr_setid'); ?>"></ul>
 	</div>
