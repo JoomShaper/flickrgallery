@@ -38,8 +38,9 @@
 
 				<field name="limit"
 					type="number"
-					label="MOD_SP_FLICKR_GALLERY_ALBUM_ID_DESC"
-					description="MOD_SP_FLICKR_GALLERY_ALBUM_ID_DESC_DESC"
+					default="8"
+					label="MOD_SP_FLICKR_GALLERY_LIMIT"
+					description="MOD_SP_FLICKR_GALLERY_LIMIT_DESC"
 				/>
 
 			</fieldset>

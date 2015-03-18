@@ -3,13 +3,18 @@
  * @copyright	Copyright (C) 2010 - 2015 JoomShaper. All rights reserved.
  * @license		GNU General Public License version 2 or later; 
  */
- .sp-flickr-gallery li{
-	width: 23%;
-	margin-right: 5px !important;
+ .sp-flickr-gallery {
+ 	list-style: none;
+ 	padding: 0;
+ 	margin: -2px;
+ }
+.sp-flickr-gallery li{
+	display: inline-block;
+	margin: 2px;
 	position: relative;
 }
 .sp-flickr-gallery li span.flickr-gallery-wrap:before{
-	background: rgba(153,134,117,.7);
+	background: rgba(0,0,0,.7);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -33,8 +38,8 @@
 	-ms-transform: translate(-50%, -50%) scale(0);
 	-o-transform: translate(-50%, -50%) scale(0);
 	transform: translate(-50%, -50%) scale(0);
-	content: "\f002";
-	font-family: "fontawesome";
+	content: "\f0c1";
+	font-family: "FontAwesome";
 	color: #fff;
 }
 .sp-flickr-gallery li:hover span.flickr-gallery-wrap:before{
@@ -48,5 +53,5 @@
 	transform: translate(-50%, -50%) scale(1);
 }
 .sp-flickr-gallery a{
-	padding: 0 !important;
+	padding: 0;
 }
