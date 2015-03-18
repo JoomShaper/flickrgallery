@@ -6,12 +6,16 @@
  .sp-flickr-gallery {
  	list-style: none;
  	padding: 0;
- 	margin: -2px;
+ 	margin: 0;
  }
 .sp-flickr-gallery li{
-	display: inline-block;
-	margin: 2px;
+	display: block;
+	float: left;
+	margin: 0;
 	position: relative;
+}
+.sp-flickr-gallery li a {
+	padding: 0 !important;
 }
 .sp-flickr-gallery li span.flickr-gallery-wrap:before{
 	background: rgba(0,0,0,.7);
